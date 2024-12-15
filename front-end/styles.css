@@ -1,0 +1,220 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/**************** Header *****************/
+header{
+  height: 80px; 
+  background-color: black;
+  margin:5px 5px 0 5px;
+}
+
+/*Title SimpleDEX*/
+.logo_header span{
+  color: white;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8em; 
+  font-style: bold;
+  font-weight: 800;
+  padding: 20px 0px 10px 15px; 
+}  
+
+/************ Menu Navegation **************/
+nav{
+  position: absolute;
+  top: 0px;
+  left: 210px;
+  margin: 0%;
+  height: 80px;
+  width: 80%;
+}
+.navegation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; 
+  list-style: none;
+  padding: 25px; 
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+} 
+  
+/*Buttons */
+.navegation button {
+  font-size: 19px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+  border-radius: 5cap;
+  margin: 0px 20px 0px 50px;
+  background-color: whitesmoke;
+  border-bottom: 3px black solid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+/*Mouse Elements Menu Navegation*/
+.navegation button:hover {
+  color:black;
+  border-right: 4px black solid;
+  background-color: lightblue;
+  font-size: 19px;
+  font-weight: bold; 
+}
+
+.navegation button:active {
+  color:white;
+  border-right: 4px black solid;
+  background-color: green;
+  font-size: 19px;
+  font-weight: bold; 
+}
+
+#AddLiquidity {
+  background-color: green;
+  color:white;
+}
+
+#RemoveLiquity {
+  background-color: green;
+  color:white;
+}
+
+#SwapTokeAforB {
+  background-color: green;
+  color:white;
+}
+
+#SwapTokeBforA {
+  background-color: green;
+  color:white;
+}
+
+#GetPrice {
+  background-color: green;
+  color:white;
+}
+
+
+/********** MAIN **********/
+.opcion{
+  margin: 10px 5px 80px 5px;
+  padding: 0px 150px 50px 50px;
+  border: 2px black;
+  border-style: double;
+  border-width: thick;
+  background-color: lightgrey;
+  border-radius: 15px;
+  font-family: 'Acme', sans-serif;
+  font-weight: bold;
+  height: 500px; 
+}
+
+/* Titles*/
+.opcion h2{
+  margin: 10px 0px 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.9em;
+  font-weight: 600;
+}
+
+.opcion p{
+  margin: 15px 0px 25px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: darkgreen;
+}
+
+/*formulario*/
+.formulario {
+  display: flex; 
+  flex-direction: column;
+  width: 90%;  
+} 
+
+.formulario label{
+  margin-bottom: 5px;
+}
+
+.formulario input, select{
+  margin-bottom: 20px;
+}
+
+#OpcionSelect{
+  height: 40px;
+  border-radius: 5px; 
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  margin-top: 10px;
+  background-color: lightblue;
+  padding: 10px 20px 20px 10px;
+  margin-bottom: 15px;
+} 
+
+#OpcionSelect:hover{
+  height: 40px;
+  border-radius: 5px; 
+  border: 1px solid;
+  font-family: 'Acme', sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  margin-top: 10px;
+  background-color: lightgreen;
+  padding: 10px 20px 20px 10px;
+  margin-bottom: 15px;
+} 
+
+#OpcionSelect:active {
+  background-color: green;
+  color:white;  
+}
+
+.wallet {
+  font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+

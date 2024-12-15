@@ -1,0 +1,71 @@
+<!-- Get Price -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <title>GetPrice</title>
+</head>
+<body>
+    <header>
+        <div class="logo_header">    
+             <span>Simple DEX</span>
+        </div>    
+        <nav>   
+            <ul class="navegation">
+                <li><a href="SimpleDEX.html">
+                    <button>Add Liquidity</button>
+                </a></li>
+
+                <li><a href="removeLiquity.html">
+                    <button>Remove Liquidity</button>
+                </a></li>
+
+                <li><a href="swapAforB.html">
+                    <button>Swap TokeA for TokenB</button>
+                </a></li>
+
+                <li><a href="swapBforA.html">
+                    <button>Swap TokeB for TokenA</button>
+                </a></li>
+
+                <li><a href="getprice.html">
+                    <button id="GetPrice">Get Price</button>
+                </a></li>
+
+                <li>
+                    <button id="Wallet" onclick="Connect()">Connect Wallet</button>
+                    </li>
+            </ul>
+        </nav>    
+    </header> 
+    <main>
+        <div class="opcion">
+            <h2>Get Price</h2> 
+        
+            <form name="fvalida" class="formulario" action="" target="_blank">                                     
+                
+                <label for="token">Select the Token</label>
+                <select name="token" id="token">
+                    <option value="TokenA">TokenA</option>
+                    <option value="TokenB">TokenB</option>
+                </select>               
+                             
+                <button id="OpcionSelect" onclick="GetPrice()">Get Price</button>
+            </form>
+            <div class="wallet">
+                <p id="messageWallet"></p>
+                <p id="accountAddress"></p>
+                <p id="getprice"></p> 
+            </div>
+        </div>
+    </main>  
+    <script src="script.js"></script>  
+</body>
+</html>
+
+
+    
+   

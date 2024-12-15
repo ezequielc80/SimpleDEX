@@ -1,0 +1,77 @@
+<!-- Add Liquity -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <title>Add Liquidity</title>
+</head>
+<body>
+    <header>
+        <div class="logo_header">    
+             <span>Simple DEX</span>
+        </div>    
+        <nav>   
+            <ul class="navegation">
+                <li><a href="SimpleDEX.html">
+                    <button id="AddLiquidity">Add Liquidity</button>
+                </a></li>
+
+                <li><a href="removeLiquity.html">
+                    <button>Remove Liquidity</button>
+                </a></li>
+
+                <li><a href="swapAforB.html">           
+                    <button>Swap TokeA for TokenB</button>
+                </a></li>
+
+                <li><a href="swapBforA.html">
+                    <button>Swap TokeB for TokenA</button>
+                </a></li>
+
+                <li><a href="getprice.html">
+                    <button>Get Price</button>
+                </a></li>
+
+                <li>
+                <button id="Wallet" onclick="Connect()">Connect Wallet</button>
+                </li>
+            </ul>
+        </nav>    
+    </header> 
+    <main>
+        <div class="opcion">
+            <h2>Add Liquidity</h2> 
+        
+            <button id="OpcionSelect" onclick="Connect()">Connect Wallet</button>
+
+            <form name="fvalida" class="formulario" action="" target="_blank">                                     
+                <label for="AmountTokenA"> Enter the AmountTokenA</label>
+                <input type="text" name="AmountTokenA" id="AmountTokenA" placeholder="Enter the value for TokenA...">
+                
+                <label for="AmountTokenB"> Enter the AmountTokenB</label>
+                <input type="text" name="AmountTokenB" id="AmountTokenB" placeholder="Enter the value for TokenB...">
+                               
+                <button id="OpcionSelect" onclick="AddLiquity()">Add Liquidity</button>
+            </form>
+            <div class="wallet">
+                <p id="messageWallet"></p>
+                <p id="accountAddress"></p>
+
+                <p id="approvetokenA"></p> 
+                <p id="approvetokenB"></p> 
+                
+                <p id="liquidity"></p>
+            </div>
+        <div>
+    </main>  
+    <script src="script.js"></script>  
+</body>
+</html>
+
+
+   
+    
+   
